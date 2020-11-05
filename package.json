@@ -1,0 +1,40 @@
+{
+  "name": "@archivist/build",
+  "version": "0.0.3",
+  "description": "a VERY simple little build source system App",
+  "copy": "Copyright (c) 2020 Archivist-Nerd",
+  "main": "build.js",
+  "preferGlobal": "true",
+  "bin": {
+    "build": "cli.js"
+  },
+  "scripts": {
+    "cli": "node cli",
+    "cli-src": "node ./src/cli",
+    "example": "node examples/example.js",
+    "test": "node tests/test.js",
+    "pack": "npm pack",
+    "pub": "npm publish --access=public"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/Archivist-Nerd/node-build/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/Archivist-Nerd/node-build/issues"
+  },
+  "repository": {
+    "url": "https://github.com/Archivist-Nerd/node-build.git",
+    "type": "git"
+  },
+  "author": {
+    "name": "Archivist Nerd",
+    "email": "a.Nerd.Archivist@gmail.com",
+    "url": "https://github.com/Archivist-Nerd"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@archivistnerd/testlib": "^0.1.1"
+  },
+  "dependencies": {
+    "@archivistnerd/bargs": "^0.1.4"
+  }
+}
